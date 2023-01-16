@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 
 import { useNavigate } from "react-router-dom";
 
+import "./Mudarpedido.css"
+
 const Mudarpedido = () => {
 
     const [id, setId] = useState();
