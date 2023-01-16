@@ -12,19 +12,19 @@ const Carrossel = () => {
       <div className="produtos">
         <div className="icon-maquina">
         <img src={iconMaquina} alt="" className="icon"/>
-        <p>Ferramentas de alta qualidade</p>
+        <p className='cor'>Ferramentas de alta qualidade</p>
         </div>
         <div className="icon-maquina">
           <img src={segurança} alt="" className="icon"/>
-          <p>Uso de produtos EPI</p>
+          <p className='cor'>Uso de produtos EPI</p>
         </div>
         <div className="icon-maquina">
           <img src={estudio} alt="" className="icon"/>
-          <p>Intala<span id="erro">çõ</span>es modernas e preparadas</p>
+          <p className='cor'>Intala<span id="erro">çõ</span>es modernas e preparadas</p>
         </div>
         <div className="icon-maquina">
           <img src={cadeira} alt="" className="icon"/>
-          <p>Seu conforto sempre garantido</p>
+          <p className='cor'>Seu conforto sempre garantido</p>
         </div>
       </div>
 

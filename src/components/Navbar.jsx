@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to={'/mudarpedido'}>Algum Problema?</Link>
            </li>
            <li>
-            <Link to={'/contatos'}>Fale Conosco</Link>
+            <Link to={'/contatos'}>Equipe</Link>
            </li>
            
        </ul>

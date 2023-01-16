@@ -32,7 +32,8 @@ const NewPost = () => {
         <h1 className='destaque2'>Tatuagens</h1>
         <h2 className="destaque3">Aqui temos alguns exemplos tatuagens de varios estilos feito por nossos tatuadores</h2>
         </div>
-        {posts.length === 0 ? <div className='centralizar'> <div className="loader"></div></div> : (
+        
+        {posts.length === 0 ? <div className='centralizar'> <span className="loader"></span></div> : (
             posts.map((equipaments) => (
                 <div className='post' key={equipaments.id}>
                     <h2>{ }</h2>
@@ -53,6 +54,7 @@ const NewPost = () => {
             ))
         )}
 
+<div className="espaço"></div>
     </div>
 
 }

@@ -2,6 +2,10 @@ import blogFetch from "../axios/config";
 
 import { useState, useEffect } from "react";
 
+import logo from "../imagens/sem.png"
+
+import "./Contatos.css"
+
 const Contatos = () => {
 
   const [posts, setPosts] = useState([])
@@ -26,8 +30,8 @@ const Contatos = () => {
 
   
   return (
-    <div><h1 className='destaque'>Funcionarios</h1>
-    {posts.length === 0 ? <div className='centralizar'> <div className="loader"></div></div> : (
+    <div><h1 className='destaque'> <div className="foto2"> <img src={logo} alt="" id="foto" /> <h1 className="foto3">Funcionarios</h1></div></h1>
+    {posts.length === 0 ? <div className='centralizar'> <span className="loader"></span></div> : (
         posts.map((equipaments) => (
             <div className='post' key={equipaments.id}>
                 <h2>{ }</h2>
@@ -41,7 +45,9 @@ const Contatos = () => {
                 </div>
             </div>
         ))
-    )}</div>
+    )}
+    <div className="espaço"></div>
+    </div>
   )
 }
 
