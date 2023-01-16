@@ -1,0 +1,12 @@
+#foto{
+    width: 300px;
+}
+
+.foto2{
+    display: flex;
+    align-items: center;
+}
+.foto3{
+    text-align: center;
+    font-size: 200px;
+}

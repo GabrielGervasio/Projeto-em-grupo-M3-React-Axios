@@ -99,7 +99,8 @@ const Pedidos = () => {
             </form>
 
             <h1 className='destaque destaque3'>Agendados</h1>
-            {posts.length === 0 ? <div className='centralizar'> <div className="loader"></div></div> : (
+            
+            {posts.length === 0 ? <div className='centralizar'> <span className="loader"></span></div> : (
                 posts.map((equipaments) => (
                     <div className='post' key={equipaments.id}>
                         <h2>{ }</h2>
@@ -117,6 +118,7 @@ const Pedidos = () => {
                     </div>
                 ))
             )}
+            <div className="espaço"></div>
         </div>
 
     )
