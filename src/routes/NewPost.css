@@ -1,0 +1,69 @@
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #eee;
+    border-bottom-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    animation: rotate 1.5s linear infinite;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.img{
+    max-height: 250px;
+}
+.destaque{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 15px #FFF;
+    border-style:inset;
+    border-radius: 2rem;
+    opacity: 1;
+    background-color: #292929;
+    font-family: East Sea Dokdo;
+
+}
+
+.destaque2{
+    text-align: center;
+    font-size: 200px;
+}
+
+.destaque3{
+    font-size: 50px;
+}
+.post{
+    padding-bottom: 10px;
+    border-bottom: #eee solid 2px;
+}
+.tabela{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.informacoes{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 25px;
+}

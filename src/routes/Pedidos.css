@@ -1,0 +1,59 @@
+.chamado{
+    margin-inline: auto;
+    text-align: center;
+    font-family: East Sea Dokdo;
+    font-size: 50px;
+}
+
+.form-control2{
+    background-color: #969696;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.formularios{
+    border: 4px rgb(0, 0, 0) solid;
+    border-radius: 1rem;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    margin-inline: auto;
+    background-color: #969696;
+    margin-bottom: 50px;
+    
+    font-size: 20px;
+}
+
+
+.formularios input{
+    width: 100%;
+    border-radius: 0.375rem;
+    font-family: Blinker;
+}
+.formularios select{
+    width: 100%;
+    border-radius: 0.375rem;
+    font-family: Blinker;
+}
+#preçoEstilo{
+    height: 30px;
+}
+
+.envio:hover{
+    border: white 1px solid;
+    position: relative;
+    background-color: rgb(198, 198, 198);
+    color: black;
+    
+}
+.redirecionar{
+    font-size: 15px;
+    color: #202a20
+}

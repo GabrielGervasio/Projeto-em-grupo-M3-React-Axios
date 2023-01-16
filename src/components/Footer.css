@@ -1,0 +1,26 @@
+:root {
+    --pretoTotal: #000000;
+    --preto1:#161616;
+    --cinza1:#2d2d2d;
+    --cinza2:#434343;
+    --cinza3:#595959;
+  }
+
+#footer{
+    bottom: 0;
+    width: 100%;
+    max-height: 100px;
+    height: 75px;
+    background-color:var(--cinza2);
+    color:var(--marrom);
+    font-family: East Sea Dokdo;
+    
+}
+
+.projeto{
+  font-size: 50px;
+}
+
+#footer a {
+  color: #000000;
+}
